@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED62064D1B02ADA700D6BB52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED62064C1B02ADA700D6BB52 /* main.m */; };
+		ED6206501B02ADA700D6BB52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED62064F1B02ADA700D6BB52 /* AppDelegate.m */; };
+		ED6206531B02ADA700D6BB52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6206521B02ADA700D6BB52 /* ViewController.m */; };
+		ED6206561B02ADA700D6BB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6206541B02ADA700D6BB52 /* Main.storyboard */; };
+		ED6206581B02ADA700D6BB52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6206571B02ADA700D6BB52 /* Images.xcassets */; };
+		ED62065B1B02ADA700D6BB52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6206591B02ADA700D6BB52 /* LaunchScreen.xib */; };
+		ED6206671B02ADA700D6BB52 /* Calidad_del_Aire___GaliciaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6206661B02ADA700D6BB52 /* Calidad_del_Aire___GaliciaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6206611B02ADA700D6BB52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED62063F1B02ADA700D6BB52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6206461B02ADA700D6BB52;
+			remoteInfo = "Calidad del Aire - Galicia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED6206471B02ADA700D6BB52 /* Calidad del Aire - Galicia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calidad del Aire - Galicia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED62064B1B02ADA700D6BB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED62064C1B02ADA700D6BB52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED62064E1B02ADA700D6BB52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED62064F1B02ADA700D6BB52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED6206511B02ADA700D6BB52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED6206521B02ADA700D6BB52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED6206551B02ADA700D6BB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6206571B02ADA700D6BB52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED62065A1B02ADA700D6BB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED6206601B02ADA700D6BB52 /* Calidad del Aire - GaliciaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calidad del Aire - GaliciaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6206651B02ADA700D6BB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6206661B02ADA700D6BB52 /* Calidad_del_Aire___GaliciaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Calidad_del_Aire___GaliciaTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6206441B02ADA700D6BB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED62065D1B02ADA700D6BB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED62063E1B02ADA700D6BB52 = {
+			isa = PBXGroup;
+			children = (
+				ED6206491B02ADA700D6BB52 /* Calidad del Aire - Galicia */,
+				ED6206631B02ADA700D6BB52 /* Calidad del Aire - GaliciaTests */,
+				ED6206481B02ADA700D6BB52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6206481B02ADA700D6BB52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6206471B02ADA700D6BB52 /* Calidad del Aire - Galicia.app */,
+				ED6206601B02ADA700D6BB52 /* Calidad del Aire - GaliciaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6206491B02ADA700D6BB52 /* Calidad del Aire - Galicia */ = {
+			isa = PBXGroup;
+			children = (
+				ED62064E1B02ADA700D6BB52 /* AppDelegate.h */,
+				ED62064F1B02ADA700D6BB52 /* AppDelegate.m */,
+				ED6206511B02ADA700D6BB52 /* ViewController.h */,
+				ED6206521B02ADA700D6BB52 /* ViewController.m */,
+				ED6206541B02ADA700D6BB52 /* Main.storyboard */,
+				ED6206571B02ADA700D6BB52 /* Images.xcassets */,
+				ED6206591B02ADA700D6BB52 /* LaunchScreen.xib */,
+				ED62064A1B02ADA700D6BB52 /* Supporting Files */,
+			);
+			path = "Calidad del Aire - Galicia";
+			sourceTree = "<group>";
+		};
+		ED62064A1B02ADA700D6BB52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED62064B1B02ADA700D6BB52 /* Info.plist */,
+				ED62064C1B02ADA700D6BB52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED6206631B02ADA700D6BB52 /* Calidad del Aire - GaliciaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6206661B02ADA700D6BB52 /* Calidad_del_Aire___GaliciaTests.m */,
+				ED6206641B02ADA700D6BB52 /* Supporting Files */,
+			);
+			path = "Calidad del Aire - GaliciaTests";
+			sourceTree = "<group>";
+		};
+		ED6206641B02ADA700D6BB52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED6206651B02ADA700D6BB52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6206461B02ADA700D6BB52 /* Calidad del Aire - Galicia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED62066A1B02ADA700D6BB52 /* Build configuration list for PBXNativeTarget "Calidad del Aire - Galicia" */;
+			buildPhases = (
+				ED6206431B02ADA700D6BB52 /* Sources */,
+				ED6206441B02ADA700D6BB52 /* Frameworks */,
+				ED6206451B02ADA700D6BB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calidad del Aire - Galicia";
+			productName = "Calidad del Aire - Galicia";
+			productReference = ED6206471B02ADA700D6BB52 /* Calidad del Aire - Galicia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED62065F1B02ADA700D6BB52 /* Calidad del Aire - GaliciaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED62066D1B02ADA700D6BB52 /* Build configuration list for PBXNativeTarget "Calidad del Aire - GaliciaTests" */;
+			buildPhases = (
+				ED62065C1B02ADA700D6BB52 /* Sources */,
+				ED62065D1B02ADA700D6BB52 /* Frameworks */,
+				ED62065E1B02ADA700D6BB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6206621B02ADA700D6BB52 /* PBXTargetDependency */,
+			);
+			name = "Calidad del Aire - GaliciaTests";
+			productName = "Calidad del Aire - GaliciaTests";
+			productReference = ED6206601B02ADA700D6BB52 /* Calidad del Aire - GaliciaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED62063F1B02ADA700D6BB52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = fjimenezr;
+				TargetAttributes = {
+					ED6206461B02ADA700D6BB52 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					ED62065F1B02ADA700D6BB52 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = ED6206461B02ADA700D6BB52;
+					};
+				};
+			};
+			buildConfigurationList = ED6206421B02ADA700D6BB52 /* Build configuration list for PBXProject "Calidad del Aire - Galicia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED62063E1B02ADA700D6BB52;
+			productRefGroup = ED6206481B02ADA700D6BB52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6206461B02ADA700D6BB52 /* Calidad del Aire - Galicia */,
+				ED62065F1B02ADA700D6BB52 /* Calidad del Aire - GaliciaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6206451B02ADA700D6BB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6206561B02ADA700D6BB52 /* Main.storyboard in Resources */,
+				ED62065B1B02ADA700D6BB52 /* LaunchScreen.xib in Resources */,
+				ED6206581B02ADA700D6BB52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED62065E1B02ADA700D6BB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6206431B02ADA700D6BB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6206531B02ADA700D6BB52 /* ViewController.m in Sources */,
+				ED6206501B02ADA700D6BB52 /* AppDelegate.m in Sources */,
+				ED62064D1B02ADA700D6BB52 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED62065C1B02ADA700D6BB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6206671B02ADA700D6BB52 /* Calidad_del_Aire___GaliciaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6206621B02ADA700D6BB52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6206461B02ADA700D6BB52 /* Calidad del Aire - Galicia */;
+			targetProxy = ED6206611B02ADA700D6BB52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED6206541B02ADA700D6BB52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6206551B02ADA700D6BB52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6206591B02ADA700D6BB52 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED62065A1B02ADA700D6BB52 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6206681B02ADA700D6BB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED6206691B02ADA700D6BB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED62066B1B02ADA700D6BB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calidad del Aire - Galicia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED62066C1B02ADA700D6BB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calidad del Aire - Galicia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED62066E1B02ADA700D6BB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Calidad del Aire - GaliciaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calidad del Aire - Galicia.app/Calidad del Aire - Galicia";
+			};
+			name = Debug;
+		};
+		ED62066F1B02ADA700D6BB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Calidad del Aire - GaliciaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calidad del Aire - Galicia.app/Calidad del Aire - Galicia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6206421B02ADA700D6BB52 /* Build configuration list for PBXProject "Calidad del Aire - Galicia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6206681B02ADA700D6BB52 /* Debug */,
+				ED6206691B02ADA700D6BB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED62066A1B02ADA700D6BB52 /* Build configuration list for PBXNativeTarget "Calidad del Aire - Galicia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED62066B1B02ADA700D6BB52 /* Debug */,
+				ED62066C1B02ADA700D6BB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED62066D1B02ADA700D6BB52 /* Build configuration list for PBXNativeTarget "Calidad del Aire - GaliciaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED62066E1B02ADA700D6BB52 /* Debug */,
+				ED62066F1B02ADA700D6BB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED62063F1B02ADA700D6BB52 /* Project object */;
+}
